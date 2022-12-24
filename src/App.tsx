@@ -11,6 +11,7 @@ function TestComponent(props: TestProps): ReactElement {
       <div>
         <h1>Test Component</h1>
         <p>{props.name}</p>
+        <p>hello sautet</p>
       </div>
     </>
   );

@@ -9,17 +9,11 @@ on:
 jobs:
   hello:
     runs-on: ubuntu-latest
+  
     steps:
       - uses: actions/checkout@v2
       - name: hello world
       - run: echo "Hello sautet"
-        shell: bash
-  
-  goodbye:
-    runs-on: ubuntu-latest
-    steps:
-      - name: goodbye
-      - run: echo "Goodbye sautet"
         shell: bash
 
    

@@ -1,19 +1,18 @@
-name: Test work flow
+name: Test Workflow
 
 on:
   push:
     branches:
       - master
   workflow_dispatch:
-  
+
 jobs:
   hello:
     runs-on: ubuntu-latest
   
     steps:
-      - uses: actions/checkout@v2
-      - name: hello world
-      - run: echo "Hello sautet"
+      - name: Check out code
+        uses: actions/checkout@v2
+      - name: Hello world
+        run: echo "Hello sautet"
         shell: bash
-
-   

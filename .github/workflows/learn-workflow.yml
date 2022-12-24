@@ -7,13 +7,19 @@ on:
   workflow_dispatch:
   
 jobs:
-  say-hello:
+  hello:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - with:
-          path: "test file"
-      - run:
-          echo "hello worlds"
+      - uses: actions/checkout@v2
+      - name: hello world
+      - run: echo "Hello sautet"
+        shell: bash
+  
+  goodbye:
+    runs-on: ubuntu-latest
+    steps:
+      - name: goodbye
+      - run: echo "Goodbye sautet"
+        shell: bash
 
    

@@ -1,3 +1,12 @@
+# [0.3.0](https://github.com/elvis-sautet/vite-project/compare/v0.2.1...v0.3.0) (2023-03-02)
+
+
+### Features
+
+* new release ([d4e0942](https://github.com/elvis-sautet/vite-project/commit/d4e09425513e2fb7c067c078d62f9c5132928a65))
+
+
+
 ## [0.2.1](https://github.com/elvis-sautet/vite-project/compare/v0.2.0...v0.2.1) (2023-03-02)
 
 

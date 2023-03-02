@@ -45,7 +45,7 @@ jobs:
           skip-git-pull: true
 
       # create PR using GitHub CLI
-      - name: create PR with release info
+      - name: create PR with release info n
         id: create-pr
         run: gh pr create --base main --head release-from-${{ github.sha }} --title 'Merge new release into main' --body 'Created by Github action'
         env:

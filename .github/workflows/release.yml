@@ -12,7 +12,7 @@ concurrency:
 
 jobs:
   changelog:
-    if: github.repository == 'elvis-sautet/vite-project'
+    #if: github.repository == 'elvis-sautet/vite-project'
     runs-on: ubuntu-latest
 
     steps:

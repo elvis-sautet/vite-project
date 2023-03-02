@@ -15,7 +15,7 @@ jobs:
         uses: TriPSs/conventional-changelog-action@v3.7.1
         with:
           github-token: ${{ secrets.github_token }}
-          preset: 'Enaton'
+          #preset: 'Enaton'
 
 
       - name: create release

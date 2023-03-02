@@ -1,3 +1,12 @@
+## [0.2.1](https://github.com/elvis-sautet/vite-project/compare/v0.2.0...v0.2.1) (2023-03-02)
+
+
+### Bug Fixes
+
+* updated yml ([ac6a4df](https://github.com/elvis-sautet/vite-project/commit/ac6a4df6424e5c03026223eb1d938f3de3cdc8e9))
+
+
+
 # [0.2.0](https://github.com/elvis-sautet/vite-project/compare/v0.1.0...v0.2.0) (2023-03-02)
 
 

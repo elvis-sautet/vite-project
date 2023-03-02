@@ -12,7 +12,7 @@ concurrency:
 
 jobs:
   changelog:
-    #if: github.repository == 'elvis-sautet/vite-project'
+    if: github.repository == 'elvis-sautet/vite-project'
     runs-on: ubuntu-latest
 
     steps:
@@ -67,4 +67,4 @@ jobs:
         with:
           tag_name: ${{ steps.changelog.outputs.tag }}
           release_name: ${{ steps.changelog.outputs.tag }}
-          body: ${{ steps.changelog.outputs.clean_ch
+          body: ${{ steps.changelog.outputs.clean_ch }}

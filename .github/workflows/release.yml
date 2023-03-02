@@ -7,8 +7,8 @@ on:
     paths-ignore:
       - "data/**"
 
-concurrency:
-  group: "master-branch"
+#concurrency:
+  #group: "master-branch"
 
 jobs:
   changelog:

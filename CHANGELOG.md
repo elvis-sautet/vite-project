@@ -1,4 +1,13 @@
-# 0.1.0 (2023-03-02)
+# [0.2.0](https://github.com/elvis-sautet/vite-project/compare/v0.1.0...v0.2.0) (2023-03-02)
+
+
+### Features
+
+* changes to the index file ([b78616a](https://github.com/elvis-sautet/vite-project/commit/b78616a7fa1cc911185fcb0063c20c277c634a2b))
+
+
+
+# [0.1.0](https://github.com/elvis-sautet/vite-project/compare/f165b7820ea18e1ea813335a95fda18ee722107d...v0.1.0) (2023-03-02)
 
 
 ### Bug Fixes

@@ -53,10 +53,17 @@ jobs:
 
       # merge PR using GitHub CLI
       - name: merge PR with release info
+        #id: merge-pr 
+        #run: gh pr merge --admin --merge --subject 'Merge release info' --delete-branch
+        #env:
+         # GH_TOKEN: ${{ secrets.MY_SECRET }}   
         id: merge-pr
-        run: gh pr merge --admin --merge --subject 'Merge release info' --delete-branch
+        run: |
+            gh pr merge --admin --merge --subject 'Merge release info' --delete-branch
+            exit_code=$?
+            if [ $exit_code -ne 0 ]; then exit $exit_code; fi
         env:
-          GH_TOKEN: ${{ secrets.MY_SECRET }}
+         GH_TOKEN: ${{ secrets.MY_SECRET }}
 
       # release info is now in main so we can continue as before
       - name: create release with last commit
